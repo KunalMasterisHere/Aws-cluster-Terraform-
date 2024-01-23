@@ -1,4 +1,4 @@
-## Magento 2 [auto scaling](https://aws.amazon.com/autoscaling/) cluster with Terraform on AWS cloud only
+## Magento [auto scaling](https://aws.amazon.com/autoscaling/) cluster with Terraform on AWS cloud only
 > Deploy a full-scale secure and flexible e-commerce infrastructure based on Magento 2 in a matter of seconds.  
 > Enterprise-grade solution for companies of all sizes, B2B B2C, providing the best customer experience.  
 > use [Fastly, Cloudflare, Section](../../tree/fastly) in front 
@@ -164,12 +164,12 @@ The idea was to create a full-fledged turnkey infrastructure, with deeper settin
 - [x] EC2 instance user_data configured on boot to clone files from CodeCommit branch.
 > Replaced over 200+ useless modules. Minimal Magento 2 package can be extended anytime.
 > Remove replaced components from `composer.json` in `"replace": {}` and run `composer update`  
-> modules configuration here: https://github.com/magenx/Magento-2/blob/main/composer.json  
+ 
    
    
 |**Performance and security enhancements**||**Enabled modules for test requirements**|
 |:-----|---|:-----|
-|Faster backend and frontend from 14% upto 50%||[Mageplaza SMTP](https://github.com/mageplaza/magento-2-smtp)|
+|Faster backend and frontend from 14% upto 50%|
 |Better memory management upto 15%|| |
 |Easy deployments|| |
 |Less dependencies|| |
@@ -192,20 +192,6 @@ The idea was to create a full-fledged turnkey infrastructure, with deeper settin
 - [x] Reuse AMI in Terraform to create launch_template 
    
 <br />
-   
-## [:e-mail:] Contact us for installation and support:
-We can launch this project for your store in a short time. Many big retailers have already migrated to this architecture.
-- [x] Write us an [email](mailto:info@magenx.com?subject=Magento%202%20auto%20scaling%20cluster%20on%20AWS) to discuss the project.
-- [x] Send a private message on [Linkedin](https://www.linkedin.com/in/magenx/)  
-    
-<br />
-    
-## :heart_eyes_cat: Support the project  
-This takes time and research. You can use this for free. But its not free to create it.
-If you are using this project, there are few ways you can support it:
-- [x] Star and sharing the project
-- [x] Open an issue to help make it better
-  
-❤️ Opensource  
 
-<sub>[Magento 2 on the AWS Cloud: Quick Start Deployment](https://www.magenx.com/blog/post/adobe-commerce-cloud-alternative-infrastructure-as-code-terraform-configuration.html)</sub>
+<br />
+
